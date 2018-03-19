@@ -5,7 +5,7 @@ var tj = new TJBot(
   {
     robot:
     {
-      gender: "female"
+      gender: "male"
     },
     speak:
     {
@@ -15,23 +15,23 @@ var tj = new TJBot(
   {
     speech_to_text:  
     {
-      username: "e2fe74c1-be0c-4e93-978d-a6781eeae350",
-      password: "GV20Rbs1JiU4"
+      username: "a06a237f-287a-4a3b-b9e9-734bedbfb94c",
+      password: "rWHFBIGRrIRL"
     },
     conversation:
     {
-      username:  "e10fb267-8896-4246-8855-483e5d0278e9",
-      password:  "PedOswaLlZW3"
+      username:  "98c3b4f3-0911-4312-ad33-3862869c664a",
+      password:  "2FVcggcrtMkc"
     },
     text_to_speech:
     {
-      username:  "bd52936a-895e-4e69-833a-55a940aee7c6",
-      password: "NgiMPKJUByvg"
+      username:  "00c5da30-8e78-44b1-ad50-2b6321842220",
+      password: "Ma023By4XT2K"
     }
   }
 );
 
-var workspaceId = "abdb20a1-45b3-4825-8cff-c27c82a04177";
+var workspaceId = "5c109d8a-3ee9-4da4-9174-6585c85f7c85";
 
 function processText(text)
   {
@@ -43,7 +43,6 @@ function processText(text)
                                               
   tj.speak(response.object.output.text.join(" ")).then() => {tj.listen(processText);
                                                             });
-               
               });                               
   }
   
